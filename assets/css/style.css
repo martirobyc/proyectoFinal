@@ -188,6 +188,10 @@ p {
     transform: scale(1.3);
 }
 
+.menuOptionI:hover {
+    transform: scale(1.3);
+}
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* No me funcionó la aplicación de grid en discografia.html */
 
