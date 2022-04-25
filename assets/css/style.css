@@ -166,13 +166,19 @@ p {
     /* No sé cómo solucionar la visualización de la barra de navegación en 
     mobile */
     .contenedorBarra {
-        height: auto;
+        height: 50px;
         display: grid;
         grid-gap: 1px;
         grid-template-columns: repeat(6, auto);
         justify-items: center;
         align-items: center;
     }
+}
+
+
+/* Animaciones index */
+.titulo:hover {
+    transform: scale(1.5);
 }
 
 
