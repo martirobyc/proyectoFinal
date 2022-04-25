@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(204, 166, 116);
+    min-height: 100vh;
+}
+
+.bodyIndex {
+    background-image: url(../img/fondo1.jpeg);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+footer img {
+    height: 35px;
+    width: 35px;
+}
+
+.contenedorHeader {
+    background-color: rgb(123, 93, 54);
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.contenedorHeader--I {
+    background-color: rgb(204, 166, 116);
+}
+
+.contenedorFooter {
+    background-color: rgb(204, 166, 116);
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.menuOption a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(204, 166, 116);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menuOptionI a {
+    text-decoration: none;
+    font-size: 16px;
+    color:  rgb(123, 93, 54);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 100px;
+    text-align: center;
+    color: rgb(123, 93, 54);
+}
+
+/* ----------------------------------------------------- */
+h2 {
+    text-align: center;
+    color: rgb(59, 48, 31);
+}
+
+h3 {
+    color: rgb(59, 48, 31);
+}
+
+h4 {
+    color: rgb(59, 48, 31);
+}
+
+p {
+    line-height: 1.5;
+}
+
+.tablaTickets {
+    color: rgb(59, 48, 31);
+}
+
+.formContacto {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    justify-content: space-evenly;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.pContacto {
+    text-align: center;
+}
