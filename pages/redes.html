@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAIM - Redes</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;900&display=swap" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
 </head>
 
 <body>
@@ -36,35 +38,39 @@
         </nav>
     </header>
 
-    <main>
+    <main class="container-fluid">
         <!--Contacto-->
-        <p class="pContacto">
-            ¡Suscríbase a nuestra lista de difusión para recibir las últimas novedades sobre la banda, preventas exclusivas,
-            y más!
-        </p>
-        <form class="formContacto">
-            <!--Nombre y apellido-->
-            <h3>Nombre</h3>
-            <input type="text" name="nombreApellido" placeholder="Ingrese su nombre y apellido">
-            <!--Correo electrónico-->
-            <h3>Correo electrónico</h3>
-            <input type="email" name="emailaddress" placeholder="Ingrese su correo electrónico">
-            <!--Tipo de contenido que desea recibir-->
-            <h3>Tipo de contenido que desea recibir</h3>
-            <label for="contenido">Anuncios sobre el tour</label>
-            <input type="radio" name="contenido" value="tour">
-            <label for="contenido">Venta de merchandising</label>
-            <input type="radio" name="contenido" value="merch">
-            <label for="contenido">Alertas de publicaciones</label>
-            <input type="radio" name="contenido" value="publicaciones">
-            <label for="contenido">Otros</label>
-            <input type="radio" name="contenido" value="otro">
-            <!--Comentario-->
-            <h3>Deje aquí un comentario</h3>
-            <textarea placeholder="Comentario"></textarea>
-            <br>
-            <input type="submit" value="Suscribirse">
-        </form>
+        <div class="row justify-content-center align-items-center">
+            <p class="pContacto col-xs-12 col-md-8 col-lg-8">
+                ¡Suscríbase a nuestra lista de difusión para recibir las últimas novedades sobre la banda, preventas exclusivas,
+                y más!
+            </p>
+        </div>
+        <div class="row justify-content-center align-items-top">
+            <form class="formContacto col-xs-8 col-md-8 col-lg-8">
+                <!--Nombre y apellido-->
+                <h3>Nombre</h3>
+                <input type="text" name="nombreApellido" placeholder="Ingrese su nombre y apellido">
+                <!--Correo electrónico-->
+                <h3>Correo electrónico</h3>
+                <input type="email" name="emailaddress" placeholder="Ingrese su correo electrónico">
+                <!--Tipo de contenido que desea recibir-->
+                <h3>Tipo de contenido que desea recibir</h3>
+                <label for="contenido">Anuncios sobre el tour</label>
+                <input type="radio" name="contenido" value="tour">
+                <label for="contenido">Venta de merchandising</label>
+                <input type="radio" name="contenido" value="merch">
+                <label for="contenido">Alertas de publicaciones</label>
+                <input type="radio" name="contenido" value="publicaciones">
+                <label for="contenido">Otros</label>
+                <input type="radio" name="contenido" value="otro">
+                <!--Comentario-->
+                <h3>Deje aquí un comentario</h3>
+                <textarea placeholder="Comentario"></textarea>
+                <br>
+                <input type="submit" value="Suscribirse">
+            </form>
+        </div>
     </main>
 
     <footer class="contenedorFooter">
@@ -83,6 +89,7 @@
         <div>Instagram</div>
         <div>Twitter</div>
     </footer>
+    <script src="../assets/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
