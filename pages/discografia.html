@@ -6,175 +6,133 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HAIM - Discografía</title>
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;900&display=swap" rel="stylesheet">
 </head>
 
-<body class="bodyDiscografia">
+<!-- El estilo de la barra de navegación agregada con Bootstrap se cambiará próximamente, utilizando SASS -->
+
+<body>
         <header class="contenedorHeader contenedorHeader--D">
-                <nav class="contenedorBarra contenedorBarra--D">
-                        <div class="menuOption">
-                            <a href="../index.html">Inicio</a>
-                        </div>
-                        <div class="menuOption">
-                                <a href="./banda.html">Banda</a>
-                        </div>
-                        <div class="menuOption">
-                                <a href="./discografia.html">Discografía</a>
-                        </div>
-                        <div class="menuOption">
-                                <a href="./tour.html">One More Haim Tour 2022</a>
-                        </div>
-                        <div class="menuOption">
-                                <a href="./multimedia.html">Videos</a>
-                        </div>
-                        <div class="menuOption">
-                                <a href="./redes.html">Redes sociales y contacto</a>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.png" height="25px"></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./banda.html">Banda</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./discografia.html">Discografía</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./tour.html">One More Haim Tour 2022</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./multimedia.html">Videos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./redes.html">Redes sociales y contacto</a>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                 </nav>
         </header>
 
-        <main>
-                <div class="albumes">
-                        <h2>Álbumes</h2>
-                <div>
-                <div class="alb1">
-                        <h3>Days Are Gone</h3>
-                <div>
-                <div class="img1">
-                <a href="https://open.spotify.com/album/7CzrzGbCwqT8Y43tvIUPBX?si=VI84r8QGRb6UMZG1BUTcMA"><img
-                                src="../assets/img/days_are_gone.webp" alt="Days Are Gone" width="200" height="200"></a>
+        <main class="container-fluid">
+                <div class="row justify-content-around">
+                        <div class="separadorT"><h2>Álbumes</h2></div>
+                        <div class="card text-center estiloC" style="width: 18rem;">
+                                <img src="../assets/img/days_are_gone.webp" class="card-img-top imagenC" alt="Days Are Gone">
+                                <div class="card-body">
+                                <h5 class="card-title tituloC">Days Are Gone</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://open.spotify.com/album/7CzrzGbCwqT8Y43tvIUPBX?si=VI84r8QGRb6UMZG1BUTcMA" class="btn btn-primary botonesC">Escuchar</a>
+                                </div>
+                        </div>
+                        <div class="card text-center estiloC" style="width: 18rem;">
+                                <img src="../assets/img/something_to_tell you.webp" class="card-img-top imagenC" alt="Something To Tell You">
+                                <div class="card-body">
+                                <h5 class="card-title tituloC">Something To Tell You</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://open.spotify.com/album/3EFSOzgqaOQqJCMAMMn4Cl?si=NvD0P-v8SIydKdUuu3KyR" class="btn btn-primary botonesC">Escuchar</a>
+                                </div>
+                        </div>
+                        <div class="card text-center estiloC" style="width: 18rem;">
+                                <img src="../assets/img/wimpiii.jpeg" class="card-img-top imagenC" alt="WIMPIII">
+                                <div class="card-body">
+                                <h5 class="card-title tituloC">Women In Music Pt. III</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://open.spotify.com/album/79thwyFL6Uo6rgTp3YWEAf?si=5CZ9NXhKSzKxcs0bOxtAuw" class="btn btn-primary botonesC">Escuchar</a>
+                                </div>
+                        </div>
                 </div>
-                <div class="p1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur magnam illo
-                        accusantium
-                        repudiandae nisi dolor nulla molestias quod saepe fugit, natus ut voluptatem quo optio. Ad pariatur
-                        magni
-                        tempore!</p>
+                <div class="row justify-content-around">
+                        <div class="separadorT"><h2>Colaboraciones destacadas</h2></div>
+                        <div class="card text-center estiloC" style="width: 18rem;">
+                                <img src="../assets/img/evermore.webp" class="card-img-top imagenC" alt="no body, no crime">
+                                <div class="card-body">
+                                <h5 class="card-title tituloC">no body, no crime</h5>
+                                <h6 class="card-subtitle mb-2 subtituloC">Taylor Swift</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://open.spotify.com/track/6uwfVkaOM1mcMkFmSn35ix?si=81841a14caa34425" class="btn btn-primary botonesC">Escuchar</a>
+                                </div>
+                        </div>
+                        <div class="card text-center estiloC" style="width: 18rem;">
+                                <img src="../assets/img/warm.webp" class="card-img-top imagenC" alt="Warm">
+                                <div class="card-body">
+                                <h5 class="card-title tituloC">Warm</h5>
+                                <h6 class="card-subtitle mb-2 subtituloC">Charli XCX</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://open.spotify.com/track/6iW5pbOAevzr1h2JfdJYpn?si=839008cdfd6e47ea" class="btn btn-primary botonesC">Escuchar</a>
+                                </div>
+                        </div>
+                        <div class="card text-center estiloC" style="width: 18rem;">
+                                <img src="../assets/img/motion.jpeg" class="card-img-top imagenC" alt="Motion">
+                                <div class="card-body">
+                                <h5 class="card-title tituloC">Pray To God</h5>
+                                <h6 class="card-subtitle mb-2 subtituloC">Calvin Harris</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://open.spotify.com/track/75kMrDKPJJpgEQaXVh7QMB?si=16c388544231407b" class="btn btn-primary botonesC">Escuchar</a>
+                                </div>
+                        </div>
                 </div>
-                <div class="alb2">
-                        <h3>Something To Tell You</h3>
-                </div>
-                <div class="img2">
-                <a href="https://open.spotify.com/album/3EFSOzgqaOQqJCMAMMn4Cl?si=NvD0P-v8SIydKdUuu3KyRg"><img
-                                src="../assets/img/something_to_tell you.webp" alt="Something To Tell You" width="200"
-                                height="200"></a>
-                </div>
-                <div class="p2">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur magnam illo
-                        accusantium
-                        repudiandae nisi dolor nulla molestias quod saepe fugit, natus ut voluptatem quo optio. Ad pariatur
-                        magni
-                        tempore!</p>
-                </div>
-                <div class="alb3">
-                        <h3>Women In Music Pt. III</h3>
-                </div>
-                <div class="img3">
-                <a href="https://open.spotify.com/album/79thwyFL6Uo6rgTp3YWEAf?si=5CZ9NXhKSzKxcs0bOxtAuw"><img
-                                src="../assets/img/wimpiii.jpeg" alt="Women In Music Pt. III" width="200"
-                                height="200"></a>
-                </div>
-                <div class="p3">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur magnam illo
-                        accusantium
-                        repudiandae nisi dolor nulla molestias quod saepe fugit, natus ut voluptatem quo optio. Ad pariatur
-                        magni
-                        tempore!</p>
-                </div>
-                <!-- !! -->
-                <div class="colab">
-                        <h2>Colaboraciones destacadas</h2>
-                </div>
-                <div class="col1">
-                        <h3>no body, no crime</h3>
-                </div>
-                <div class="img4">
-                        <a href="https://open.spotify.com/track/6uwfVkaOM1mcMkFmSn35ix?si=81841a14caa34425"><img
-                                src="../assets/img/evermore.webp" alt="evermore" width="100" height="100"></a>
-                </div>
-                <div class="p4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur magnam illo
-                        accusantium
-                        repudiandae nisi dolor nulla molestias quod saepe fugit, natus ut voluptatem quo optio. Ad pariatur
-                        magni
-                        tempore!</p>
-                </div>
-                <div class="col2">
-                        <h3>Warm</h3>
-                </div>
-                <div class="img5">
-                <a href="https://open.spotify.com/track/6iW5pbOAevzr1h2JfdJYpn?si=839008cdfd6e47ea"><img
-                                src="../assets/img/warm.webp" alt="Warm" width="100" height="100"></a>
-                </div>
-                <div class="p5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur magnam illo
-                        accusantium
-                        repudiandae nisi dolor nulla molestias quod saepe fugit, natus ut voluptatem quo optio. Ad pariatur
-                        magni
-                        tempore!</p>
-                </div>
-                <div class="col3">
-                        <h3>Pray To God</h3>
-                </div>
-                <div class="img6">
-                        <a href="https://open.spotify.com/track/75kMrDKPJJpgEQaXVh7QMB?si=16c388544231407b"><img
-                                src="../assets/img/motion.jpeg" alt="Motion" width="100" height="100"></a>
-                </div>
-                <div class="p6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur magnam illo
-                        accusantium
-                        repudiandae nisi dolor nulla molestias quod saepe fugit, natus ut voluptatem quo optio. Ad pariatur
-                        magni
-                        tempore!</p>
-                </div>
-                <!-- !! -->
-                <div class="sencillos">
-                        <h2>Sencillos</h2>
-                </div>
-                <div class="sen1">
-                        <h3>Cherry Flavored Stomach Ache</h3>
-                </div>
-                <div class="img7">
-                        <a href="https://open.spotify.com/track/6q8lR0xsZ5X2se9ssZobhF?si=bcd3daba8b6f4f18"><img
-                                src="../assets/img/cfsa.jpeg" alt="CFSA" width="100" height="100"></a>
-                </div>
-                <div class="p7">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur magnam illo
-                        accusantium
-                        repudiandae nisi dolor nulla molestias quod saepe fugit, natus ut voluptatem quo optio. Ad pariatur
-                        magni
-                        tempore!</p>
-                </div>
-                <div class="sen2">
-                        <h3>Feel The Thunder</h3>
-                </div>
-                <div class="img8">
-                        <a href="https://open.spotify.com/track/17qLSNEfV1FSflyNzvFBAD?si=54eb6e6842f64d58"><img
-                                src="../assets/img/ftt.jpg" alt="FTT" width="100" height="100"></a>
-                </div>
-                <div class="p8">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur magnam illo
-                        accusantium
-                        repudiandae nisi dolor nulla molestias quod saepe fugit, natus ut voluptatem quo optio. Ad pariatur
-                        magni
-                        tempore!</p>
-                </div>
-                <div class="sen3">
-                        <h3>That Don't Impress Me Much (cover)</h3>
-                </div>
-                <div class="img9">
-                        <a href="https://open.spotify.com/track/0qfZ778fbXXCtyEzyIET5K?si=78a2495213754bc1"><img
-                                src="../assets/img/tdimm.jpeg" alt="TDIMM" width="100" height="100"></a>
-                </div>
-                <div class="p9">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur magnam illo
-                        accusantium
-                        repudiandae nisi dolor nulla molestias quod saepe fugit, natus ut voluptatem quo optio. Ad pariatur
-                        magni
-                        tempore!</p>
+                <div class="row justify-content-around">
+                        <div class="separadorT"><h2>Sencillos</h2></div>
+                        <div class="card text-center estiloC" style="width: 18rem;">
+                                <img src="../assets/img/cfsa.jpeg" class="card-img-top imagenC" alt="Cherry Flavored Stomach Ache">
+                                <div class="card-body">
+                                <h5 class="card-title tituloC">Cherry Flavored Stomach Ache</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://open.spotify.com/track/6q8lR0xsZ5X2se9ssZobhF?si=bcd3daba8b6f4f18" class="btn btn-primary botonesC">Escuchar</a>
+                                </div>
+                        </div>
+                        <div class="card text-center estiloC" style="width: 18rem;">
+                                <img src="../assets/img/ftt.jpg" class="card-img-top imagenC" alt="Feel The Thunder">
+                                <div class="card-body">
+                                <h5 class="card-title tituloC">Feel The Thunder</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://open.spotify.com/track/17qLSNEfV1FSflyNzvFBAD?si=54eb6e6842f64d58" class="btn btn-primary botonesC">Escuchar</a>
+                                </div>
+                        </div>
+                        <div class="card text-center estiloC" style="width: 18rem;">
+                                <img src="../assets/img/tdimm.jpeg" class="card-img-top imagenC" alt="That Don't Impress Me Much (cover)">
+                                <div class="card-body">
+                                <h5 class="card-title tituloC">That Don't Impress Me Much (cover)</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="https://open.spotify.com/track/0qfZ778fbXXCtyEzyIET5K?si=78a2495213754bc1" class="btn btn-primary botonesC">Escuchar</a>
+                                </div>
+                        </div>
                 </div>
         </main>
 
@@ -194,6 +152,7 @@
                 <div>Instagram</div>
                 <div>Twitter</div>
         </footer>
+        <script src="../assets/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
