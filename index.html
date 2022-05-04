@@ -2,75 +2,80 @@
 <html lang="es">
 
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HAIM - Inicio</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;900&display=swap" rel="stylesheet">
-        <link href="./assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="icon" href="./assets/img/favicon.webp">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAIM - Inicio</title>
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!-- Bootstrap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Fuente -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;900&display=swap" rel="stylesheet"> <!-- Fuente -->
+  <link rel="stylesheet" href="./assets/css/style.css"> <!-- Estilos -->
+  <link rel="icon" href="./assets/img/favicon.webp"> <!-- Logo tab -->
 </head>
 
-<!-- El estilo de la barra de navegación agregada con Bootstrap se cambiará próximamente, utilizando SASS -->
+<body class="bodyIndex container-fluid">
 
-<body class="bodyIndex">
-        <header class="contenedorHeader contenedorHeader--I">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                                <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo.png" height="25px"></a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./pages/banda.html">Banda</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./pages/discografia.html">Discografía</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./pages/tour.html">One More Haim Tour 2022</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./pages/multimedia.html">Videos</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./pages/redes.html">Redes sociales y contacto</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                </nav>
-        </header>
+  <header class="row">
 
-        <main class="contenedorMainI">
-                <h1 class="titulo">HAIM</h1>
-        </main>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo.png" height="25px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid justify-content-around">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"><p>Inicio</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/banda.html"><p>Banda</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/discografia.html"><p>Discografía</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/tour.html"><p>One More Haim Tour 2022</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/multimedia.html"><p>Videos</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/redes.html"><p>Redes sociales y contacto</p></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-        <footer class="contenedorFooter contenedorFooter--I">
-                <div class="imagenesFooter"><a href="https://www.youtube.com/channel/UC9Dln8col-vr7GB1UTR789w"><img src="./assets/img/youtube.png" alt="YouTube logo"></a></div>
-                <div class="imagenesFooter"><a href="https://www.tiktok.com/@haimtheband"><img src="./assets/img/tik_tok.png" alt="TikTok logo"></a></div>
-                <div class="imagenesFooter"><a href="https://open.spotify.com/artist/4Ui2kfOqGujY81UcPrb5KE?si=7jF-mvYrQ4y7CS6mp-Qrcw"><img src="./assets/img/spotify.png" alt="Spotify logo"></a></div>
-                <div class="imagenesFooter"><a href="https://music.apple.com/ar/artist/haim/164483115?l=en"><img src="./assets/img/music.png" alt="Apple Music logo"></a></div>
-                <div class="imagenesFooter"><a href="https://www.facebook.com/haimtheband"><img src="./assets/img/facebook.png" alt="Facebook logo"></a></div>
-                <div class="imagenesFooter"><a href="https://www.instagram.com/haimtheband/"><img src="./assets/img/instagram.png" alt="Instagram logo"></a></div>
-                <div class="imagenesFooter"><a href="https://twitter.com/HAIMtheband"><img src="./assets/img/twitter.png" alt="Twitter logo"></a></div>
-                <div>YouTube</div>
-                <div>TikTok</div>
-                <div>Spotify</div>
-                <div>Apple Music</div>
-                <div>Facebook</div>
-                <div>Instagram</div>
-                <div>Twitter</div>
-        </footer>
-        <script src="./assets/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </header>
+
+  <main class="row justify-content-center mainIndex">
+    <h1>HAIM</h1>
+  </main>
+
+  <footer class="row d-flex flex-column justify-content-center">
+	<div class="d-flex flex-row justify-content-around">
+		<div class="order-0"><a href="https://www.youtube.com/channel/UC9Dln8col-vr7GB1UTR789w"><img src="./assets/img/youtube.png" alt="YouTube logo"></a></div>
+		<div class="order-1"><a href="https://www.tiktok.com/@haimtheband"><img src="./assets/img/tik_tok.png" alt="TikTok logo"></a></div>
+		<div class="order-2"><a href="https://open.spotify.com/artist/4Ui2kfOqGujY81UcPrb5KE?si=7jF-mvYrQ4y7CS6mp-Qrcw"><img src="./assets/img/spotify.png" alt="Spotify logo"></a></div>
+		<div class="order-3"><a href="https://music.apple.com/ar/artist/haim/164483115?l=en"><img src="./assets/img/music.png" alt="Apple Music logo"></a></div>
+		<div class="order-4"><a href="https://www.facebook.com/haimtheband"><img src="./assets/img/facebook.png" alt="Facebook logo"></a></div>
+		<div class="order-5"><a href="https://www.instagram.com/haimtheband/"><img src="./assets/img/instagram.png" alt="Instagram logo"></a></div>
+		<div class="order-6"><a href="https://twitter.com/HAIMtheband"><img src="./assets/img/twitter.png" alt="Twitter logo"></a></div>
+	</div>
+	<div class="d-flex flex-row justify-content-around">
+		<div class="txt order-7">YouTube</div>
+		<div class="txt order-8">TikTok</div>
+		<div class="txt order-9">Spotify</div>
+		<div class="txt order-10">Apple Music</div>
+		<div class="txt order-11">Facebook</div>
+		<div class="txt order-12">Instagram</div>
+		<div class="txt order-13">Twitter</div>
+	</div>
+  </footer>
+  <script src="./assets/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <!-- Bootstrap -->
 </body>
 
 </html>

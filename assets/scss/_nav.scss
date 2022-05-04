@@ -1,0 +1,27 @@
+// Corregir vista mobile (las tres barritas tienen un border)
+
+nav {
+    div {
+        background-color: $colorNav;
+        margin: 10px;
+        border-radius: 30px;
+    }
+    ul {
+        li {
+            &:hover {
+                transform: scale(1.1);
+            }
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: bold;
+                p {
+                    color: $colorFondo;
+                    line-height: 23px;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}

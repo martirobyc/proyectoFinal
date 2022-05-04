@@ -1,0 +1,16 @@
+@import "_variables";
+@import "_nav";
+@import "_footer";
+@import "_index";
+@import "_tarjetas";
+
+
+//No me deja usar mi letra
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 20px 0px 20px;
+    background-color: $colorFondo;
+    min-height: 100vh;
+}
+

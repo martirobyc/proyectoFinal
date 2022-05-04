@@ -1,0 +1,39 @@
+
+// Averiguar cómo cambiar letra
+
+.botonesC {
+    background-color: $colorFondo;
+    border-color: $colorFondo;
+    &:hover {
+        transform: scale(1.3);
+        background-color: $colorFondo;
+        border-color: $colorFondo;
+    }
+}
+
+.tituloC {
+    color: $colorFondo;
+}
+
+.subtituloC {
+    color: $colorFondo;
+}
+
+.estiloC {
+    background-color: $colorNav;
+    border-color: $colorNav;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.imagenC {
+    border-radius: 25px;
+}
+
+.separadorT {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold;
+}

@@ -1,0 +1,20 @@
+footer {
+    background-color: $colorFondo;
+    margin-top: 40px;
+    height: 100px;
+    margin-left: -20px;
+    margin-right: -20px;
+    img {
+        height: 35px;
+        width: 35px;
+        margin: 10px;
+    }
+    div {
+        font-size: 12px;
+        color: black;
+    }
+}
+
+.txt {
+    letter-spacing: 3;
+}

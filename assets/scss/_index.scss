@@ -1,0 +1,20 @@
+//No me deja cambiar el tipo de letra
+//Se queda al costado cuando achico la pantalla
+
+.bodyIndex {
+    background-image: url(../img/fondo1.jpeg);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.mainIndex {
+    margin: 100px;
+    padding: 100px;
+    h1 {
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 100px;
+        text-align: center;
+        color: $colorHAIM;
+    }
+}
+
