@@ -63,6 +63,11 @@ footer div {
   color: #7b5d36;
 }
 
+.mainIndex h1:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 .botonesC {
   background-color: #cca674;
   border-color: #cca674;
