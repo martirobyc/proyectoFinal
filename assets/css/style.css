@@ -56,16 +56,16 @@ footer div {
   padding: 100px;
 }
 
-.mainIndex h1 {
+.mainIndex div:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.mainIndex div h1 {
   font-family: 'Montserrat', sans-serif !important;
   font-size: 100px;
   text-align: center;
   color: #7b5d36;
-}
-
-.mainIndex h1:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
 }
 
 .botonesC {
