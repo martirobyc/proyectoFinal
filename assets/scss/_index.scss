@@ -8,8 +8,7 @@
 }
 
 .mainIndex {
-    margin: 100px;
-    padding: 100px;
+    @include marginPadding(100px,100px);
     div {
         &:hover {
             transform: scale(1.5);
