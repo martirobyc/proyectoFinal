@@ -4,11 +4,6 @@ nav div {
   border-radius: 30px;
 }
 
-nav ul li:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 nav ul li a {
   text-decoration: none;
   font-size: 20px;
@@ -22,12 +17,30 @@ nav ul li a p {
   padding: 0px;
 }
 
+.custom-toggler:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.custom-toggler:active {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (min-width: 992px) {
+  nav ul li:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
 footer {
   background-color: #cca674;
-  margin-top: 40px;
   height: 100px;
-  margin-left: -20px;
-  margin-right: -20px;
+  margin: 40px -20px 0px -20px;
+  padding: 0px;
 }
 
 footer img {
@@ -52,8 +65,7 @@ footer div {
 }
 
 .mainIndex {
-  margin: 100px;
-  padding: 100px;
+  min-height: 70vh;
 }
 
 .mainIndex div:hover {
@@ -65,7 +77,19 @@ footer div {
   font-family: 'Montserrat', sans-serif !important;
   font-size: 100px;
   text-align: center;
-  color: #7b5d36;
+  color: #cca674;
+}
+
+@media (max-width: 575px) {
+  .mainIndex div h1 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .mainIndex div h1 {
+    font-size: 75px;
+  }
 }
 
 .botonesC {
@@ -103,7 +127,7 @@ footer div {
 
 .separadorT {
   padding: 20px;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 

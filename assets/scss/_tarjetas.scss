@@ -2,37 +2,38 @@
 // Averiguar cómo cambiar letra
 
 .botonesC {
-    background-color: map-get($tarjetas, $boton);
-    border-color: map-get($tarjetas, $boton);
+    background-color: $colorFondo;
+    border-color: $colorFondo;
     &:hover {
         transform: scale(1.3);
-        background-color: map-get($tarjetas, $boton);
-        border-color: map-get($tarjetas, $boton);
+        background-color: $colorFondo;
+        border-color: $colorFondo;
     }
 }
 
 .tituloC {
-    color: map-get($tarjetas, $subtitulo);
+    color: $colorFondo;
 }
 
 .subtituloC {
-    color: map-get($tarjetas, $subtitulo);
+    color: $colorFondo;
 }
 
 .estiloC {
-    background-color: map-get($tarjetas, $fondo);
-    border-color: map-get($tarjetas, $fondo);
-    color: map-get($tarjetas, $texto);
-    border-radius: map-get($tarjetas, $radio);
-    @include marginPadding(10px,10px);
+    background-color: $colorNav;
+    border-color: $colorNav;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .imagenC {
-    border-radius: map-get($tarjetas, $radio);
+    border-radius: 25px;
 }
 
 .separadorT {
-    @include marginPadding(0px,20px);
-    font-family: 'Montserrat', sans-serif !important;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }

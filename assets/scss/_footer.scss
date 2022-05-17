@@ -1,7 +1,8 @@
 footer {
     background-color: $colorFondo;
     height: 100px;
-    @include marginPadding(40px -20px 0px -20px, 0px);
+    margin: 40px -20px 0px -20px;
+    padding: 0px;
     img {
         height: 35px;
         width: 35px;

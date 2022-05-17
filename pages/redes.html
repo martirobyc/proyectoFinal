@@ -16,11 +16,11 @@
 <!-- El estilo de la barra de navegación agregada con Bootstrap se cambiará próximamente, utilizando SASS -->
 
 <body>
-    <header class="contenedorHeader">
-      <nav class="navbar navbar-expand-lg navbar-light">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.png" height="25px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -47,10 +47,9 @@
           </div>
         </div>
       </nav>
-    </header>
+  </header>
 
     <main class="container-fluid">
-        <!--Contacto-->
         <div class="row justify-content-center align-items-center">
             <p class="pContacto col-xs-12 col-md-8 col-lg-8">
                 ¡Suscríbase a nuestra lista de difusión para recibir las últimas novedades sobre la banda, preventas exclusivas,
@@ -58,15 +57,29 @@
             </p>
         </div>
         <div class="row justify-content-center align-items-top">
-            <form class="formContacto col-xs-8 col-md-8 col-lg-8">
-                <!--Nombre y apellido-->
-                <h3>Nombre</h3>
-                <input type="text" name="nombreApellido" placeholder="Ingrese su nombre y apellido">
-                <!--Correo electrónico-->
-                <h3>Correo electrónico</h3>
-                <input type="email" name="emailaddress" placeholder="Ingrese su correo electrónico">
-                <!--Tipo de contenido que desea recibir-->
-                <h3>Tipo de contenido que desea recibir</h3>
+          
+          <form class="col-xs-12 col-md-8 col-lg-8">
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form6Example1" class="form-control" />
+                  <label class="form-label" for="form6Example1">Nombre</label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form6Example2" class="form-control"/>
+                  <label class="form-label" for="form6Example2">Apellido</label>
+                </div>
+              </div>
+            </div>
+            
+            <div class="form-outline mb-4">
+              <input type="email" id="form6Example5" class="form-control" />
+              <label class="form-label" for="form6Example5">Correo electrónico</label>
+            </div>
+         
+            <div class="form-check d-flex justify-content-around mb-4">
                 <label for="contenido">Anuncios sobre el tour</label>
                 <input type="radio" name="contenido" value="tour">
                 <label for="contenido">Venta de merchandising</label>
@@ -75,14 +88,20 @@
                 <input type="radio" name="contenido" value="publicaciones">
                 <label for="contenido">Otros</label>
                 <input type="radio" name="contenido" value="otro">
-                <!--Comentario-->
-                <h3>Deje aquí un comentario</h3>
-                <textarea placeholder="Comentario"></textarea>
-                <br>
-                <input type="submit" value="Suscribirse">
-            </form>
-        </div>
-    </main>
+            </div>
+       
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+              <label class="form-label" for="form6Example7">Deje aquí un comentario</label>
+            </div>
+            <br>
+            <input type="submit" value="Suscribirse" class="btn-custom">
+          </form>
+
+    </div>
+</main>
+
+
 
     <footer class="row d-flex flex-column justify-content-center">
       <div class="d-flex flex-row justify-content-around">

@@ -1,5 +1,4 @@
 //No me deja cambiar el tipo de letra
-//Se queda al costado cuando achico la pantalla
 
 .bodyIndex {
     background-image: url(../img/fondo1.jpeg);
@@ -8,7 +7,7 @@
 }
 
 .mainIndex {
-    @include marginPadding(100px,100px);
+    min-height: 70vh;
     div {
         &:hover {
             transform: scale(1.5);
@@ -17,8 +16,28 @@
             font-family: 'Montserrat', sans-serif !important;
             font-size: 100px;
             text-align: center;
-            color: $colorHAIM;
+            color: $colorFondo;
         }
     }
 }
 
+@media(max-width:575px) {
+    .mainIndex {
+        div {
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+}
+
+
+@media(min-width:576px) and (max-width:767px) {
+    .mainIndex {
+        div {
+            h1 {
+                font-size: 75px;
+            }
+        }
+    }
+}

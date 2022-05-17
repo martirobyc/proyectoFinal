@@ -1,0 +1,29 @@
+
+
+form {
+    input {
+        .btn-custom {
+            border-radius: 15px;
+            background-color: $colorTitulos1;
+            color: $colorFondo;
+            border-color: $colorTitulos1;
+            &:hover {
+                background-color: $colorTitulos1;
+                color: $colorFondo;
+                border-color: $colorTitulos1;
+            }
+            &:focus {
+                background-color: $colorTitulos1;
+                color: $colorFondo;
+                border-color: $colorTitulos1;
+            }
+            &:active {
+                background-color: $colorTitulos1;
+                color: $colorFondo;
+                border-color: $colorTitulos1;
+            }
+        }
+    }
+}
+
+ 

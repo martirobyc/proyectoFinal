@@ -3,7 +3,6 @@
 @import "_footer";
 @import "_index";
 @import "_tarjetas";
-@import "_mixins";
 
 
 //No me deja usar mi letra
@@ -14,4 +13,20 @@ body {
     background-color: $colorFondo;
     min-height: 100vh;
 }
+
+// @media(max-width:575px) {
+
+// }
+
+// @media(min-width:576px) and (max-width:767px) {
+
+// }
+
+// @media(min-width:768px) and (max-width:991px) {
+
+// }
+
+// @media(min-width:992px) {
+
+// } 
 
