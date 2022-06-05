@@ -38,7 +38,7 @@ nav ul li a p {
 
 footer {
   background-color: #cca674;
-  height: 100px;
+  height: 120px;
   margin: 40px -20px 0px -20px;
   padding: 0px;
 }
@@ -138,10 +138,24 @@ footer div {
   font-weight: bold;
 }
 
+.tablaTickets {
+  border: 1px solid #3b301f;
+  background: #ffe9ba;
+}
+
+.tablaTickets a {
+  color: #7b5d36;
+  font-weight: bold;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   padding: 20px 20px 0px 20px;
   background-color: #cca674;
   min-height: 100vh;
+}
+
+h2 {
+  padding: 15px;
 }
 /*# sourceMappingURL=style.css.map */
