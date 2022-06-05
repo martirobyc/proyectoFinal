@@ -1,0 +1,12 @@
+
+.bandImg {
+    width: 65%;
+    padding-bottom: 15px;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.bandTxt {
+    text-align: justify;
+}
