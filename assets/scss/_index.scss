@@ -8,13 +8,10 @@
     min-height: 70vh;
     div {
         &:hover {
-            transform: scale(1.5);
+            transform: scale(1.2);
         }
-        h1 {
-            font-family: 'Montserrat', sans-serif !important;
-            font-size: 100px;
-            text-align: center;
-            color: $colorFondo;
+        img {
+            height: 100px;
         }
     }
 }
@@ -22,19 +19,19 @@
 @media(max-width:575px) {
     .mainIndex {
         div {
-            h1 {
-                font-size: 50px;
+            img {
+                height: 65px;
             }
+
         }
     }
 }
 
-
 @media(min-width:576px) and (max-width:767px) {
     .mainIndex {
         div {
-            h1 {
-                font-size: 75px;
+            img {
+                height: 80px;
             }
         }
     }

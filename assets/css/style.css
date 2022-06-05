@@ -79,26 +79,23 @@ footer div {
 }
 
 .mainIndex div:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
-.mainIndex div h1 {
-  font-family: 'Montserrat', sans-serif !important;
-  font-size: 100px;
-  text-align: center;
-  color: #cca674;
+.mainIndex div img {
+  height: 100px;
 }
 
 @media (max-width: 575px) {
-  .mainIndex div h1 {
-    font-size: 50px;
+  .mainIndex div img {
+    height: 65px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .mainIndex div h1 {
-    font-size: 75px;
+  .mainIndex div img {
+    height: 80px;
   }
 }
 
