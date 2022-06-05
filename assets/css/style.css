@@ -58,6 +58,16 @@ footer div {
   letter-spacing: 3;
 }
 
+@media (max-width: 575px) {
+  footer img {
+    height: 25px;
+    width: 25px;
+  }
+  footer span {
+    display: none;
+  }
+}
+
 .bodyIndex {
   background-image: url(../img/fondo1.jpeg);
   background-repeat: repeat-y;

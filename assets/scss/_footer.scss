@@ -17,3 +17,16 @@ footer {
 .txt {
     letter-spacing: 3;
 }
+
+@media(max-width:575px) {
+    footer {
+        img {
+            height: 25px;
+            width: 25px;
+        }
+        span {
+            display: none;
+        }
+    }
+
+}
