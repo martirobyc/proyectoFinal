@@ -157,6 +157,10 @@ footer div {
   text-align: justify;
 }
 
+.disclaimer {
+  font-size: 12px;
+}
+
 .video {
   width: 60%;
   height: 400px;
