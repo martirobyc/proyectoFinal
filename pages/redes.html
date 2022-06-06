@@ -55,49 +55,49 @@
                 y más!
           </p>
         </div>
+
         <div class="row justify-content-center align-items-top">
-          
-          <form class="col-xs-12 col-md-8 col-lg-8">
+          <form class="col-xs-12 col-md-8 col-lg-8 formulario">
             <div class="row mb-4">
               <div class="col">
                 <div class="form-outline">
-                  <input type="text" id="form6Example1" class="form-control" />
                   <label class="form-label" for="form6Example1">Nombre</label>
+                  <input type="text" id="form6Example1" class="form-control" style="background-color:rgb(255, 233, 186); border-color:rgb(255, 233, 186)"/>
                 </div>
               </div>
               <div class="col">
                 <div class="form-outline">
-                  <input type="text" id="form6Example2" class="form-control"/>
                   <label class="form-label" for="form6Example2">Apellido</label>
+                  <input type="text" id="form6Example2" class="form-control"style="background-color:rgb(255, 233, 186); border-color:rgb(255, 233, 186)"/>
                 </div>
               </div>
             </div>
             
             <div class="form-outline mb-4">
-              <input type="email" id="form6Example5" class="form-control" />
               <label class="form-label" for="form6Example5">Correo electrónico</label>
+              <input type="email" id="form6Example5" class="form-control" style="background-color:rgb(255, 233, 186); border-color:rgb(255, 233, 186)"/>
             </div>
-         
-            <div class="form-check d-flex justify-content-around mb-4">
-                <label for="contenido">Anuncios sobre el tour</label>
-                <input type="radio" name="contenido" value="tour">
-                <label for="contenido">Venta de merchandising</label>
-                <input type="radio" name="contenido" value="merch">
-                <label for="contenido">Alertas de publicaciones</label>
-                <input type="radio" name="contenido" value="publicaciones">
-                <label for="contenido">Otros</label>
-                <input type="radio" name="contenido" value="otro">
+
+            <div class="form-group mb-4">
+              <label for="contenido">Tipo de contenido que desea recibir</label>
+              <select id="contenido" class="form-control" style="background-color:rgb(255, 233, 186); border-color:rgb(255, 233, 186)">
+                  <option selected>Elegir...</option>
+                  <option>Anuncios sobre el tour</option>
+                  <option>Venta de merchandising</option>
+                  <option>Alertas de publicaciones</option>
+                  <option>Otros</option>
+              </select>
             </div>
-       
-            <div class="form-outline mb-4">
-              <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+
+            <div class="form-outline mb-4 comment">
               <label class="form-label" for="form6Example7">Deje aquí un comentario</label>
+              <textarea class="form-control" id="form6Example7" rows="4" style="background-color:rgb(255, 233, 186); border-color:rgb(255, 233, 186)"></textarea>
             </div>
             <br>
-            <input type="submit" value="Suscribirse" class="btn-custom">
-          </form>
+            <input type="submit" value="Suscribirse" class="btn-custom" style="margin-bottom: 15px; border-radius:10px; background-color:rgb(59, 48, 31); border-color:rgb(59, 48, 31); color:rgb(204, 166, 116); border-style:none">
+          </form> 
 
-    </div>
+        </div>
 </main>
 
 <footer class="row d-flex flex-column justify-content-center">
