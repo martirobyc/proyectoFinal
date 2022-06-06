@@ -159,6 +159,8 @@ footer div {
 
 .disclaimer {
   font-size: 12px;
+  text-align: justify;
+  font-style: italic;
 }
 
 .video {
@@ -170,6 +172,12 @@ footer div {
 }
 
 @media (max-width: 575px) {
+  .video {
+    height: auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
   .video {
     height: auto;
   }
