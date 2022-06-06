@@ -102,6 +102,8 @@ footer div {
 .botonesC {
   background-color: #cca674;
   border-color: #cca674;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .botonesC:hover {
@@ -109,6 +111,15 @@ footer div {
           transform: scale(1.3);
   background-color: #cca674;
   border-color: #cca674;
+}
+
+.botonesC:active, .botonesC:focus {
+  background-color: #3b301f;
+  border-color: #3b301f;
+  color: #cca674;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
 }
 
 .tituloC {

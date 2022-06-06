@@ -2,10 +2,18 @@
 .botonesC {
     background-color: $colorFondo;
     border-color: $colorFondo;
+    box-shadow: none;
     &:hover {
         transform: scale(1.3);
         background-color: $colorFondo;
         border-color: $colorFondo;
+    }
+    &:active, &:focus {
+        background-color: $colorTitulos1;
+        border-color: $colorTitulos1;
+        color: $colorFondo;
+        box-shadow: none;
+        outline: none;
     }
 }
 
